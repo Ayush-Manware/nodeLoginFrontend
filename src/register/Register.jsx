@@ -28,7 +28,7 @@ const Register = () => {
       console.error("Error during registration:", error.message);
     }
   };
-
+ console.log(registerData)
   return( 
   <div className="registerDiv">
       <h2>Sign Up with Prepbytes</h2>
