@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather&family=Montserrat:wght@100;200&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap");
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +28,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.registerDiv {
+  border: 1px solid #f7546f;
+  max-width: 35vw;
+  margin: auto;
+  background-color: #f7546f;
+}
+
+.registerDiv h2 {
+  text-align: center;
+  font-size: 1.3vw;
+  color: white;
+  font-size: 2vw;
+}
+
+input {
+  /* outline: none; */
+  /* border-color: pink; */
+  border: none;
+  background-color: #f7546f;
+  border-bottom: 0.2vw solid white;
+  text-align: center;
+}
+
+input:focus {
+  /* border-color: transparent; */
+  outline: none;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+label {
+  color: white;
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 0.5vw 0vw;
+  font-size: 1.3vw;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+.btn {
+  display: block;
+  margin: 1vw auto;
+  padding: 1vw 0vw;
+  width: 90%;
+  font-family: "Ysabeau Infant", sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 1.3vw;
 }
